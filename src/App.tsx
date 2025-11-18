@@ -46,7 +46,7 @@ function App() {
     // Load GLTF model
     const loader = new GLTFLoader()
     loader.load(
-      '/src/assets/hand_painted_forest.glb',
+      '/hand_painted_forest.glb',
       (gltf) => {
         const model = gltf.scene
         model.traverse((child) => {
